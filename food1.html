@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .banner {
+        width: 100%;
+        height: 100vh;
+        background-image: url('');
+        background-size: cover;
+        background-position: center;
+      }
+      .clear {
+        both;
+      }
+      #menus {
+        text-align: center;
+      }
+      .nav {
+        clear: both;
+        height: 40px;
+        margin-top: 40px;
+        font-family: '휴먼둥근헤드라인';
+        font-size: 16px;
+        padding-top: 20px;
+        color: white;
+        background-color: #369326;
+        border: solid 1px #369326;
+      }
+      header {
+        width: 1140px;
+        height: 100px;
+        margin: 0 auto;
+      }
+
+      #logo {
+        text-align: center;
+      }
+
+      .nav ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        position: relative;
+        font-family: '휴먼둥근헤드라인';
+      }
+      .nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+      }
+      .nav ul li::after {
+        content: '';
+        height: 3px;
+        width: 0%;
+        background: #009666;
+        left: 0;
+        bottom: -10;
+        transition: 0.5s;
+      }
+      .nav ul li:hover::after{
+        width: 100%;
+      }
+      footer {
+        width: 100%;
+        height: 170px;
+        margin-top: 0px;
+        background-color:#369326;
+      }
+      #footer_box {
+        width: 1140px;
+        height: 170px;
+        margin: 0 auto;
+      }
+
+      #address {
+        float: left;
+        margin: 50px 30px 0 0;
+        color: white;
+        font-size: 12px;
+      }
+      .content {
+        width: 1200px;
+        height:960px;
+        margin: auto;
+        margin-top: -200px;
+        transform: translateY(-50%);
+        text-align: center;
+        color: #fff;
+      }
+      .con {
+        margin-top : 50px;
+      }
+      .content h1{
+        font-size: 70px;
+        margin-top: 80px;
+      }
+      .content p {
+        margin: 20px 0 auto;
+        font-weight: 100;
+        line-height:  25px;
+      }
+      .button:hover {
+        color: white;
+      }
+      .nav li a:hover{
+         color:#ff7f00
+      }
+      .intro {
+        text-align: center;
+      }
+      .intro h3 {
+        color:#01DF3A;
+        margin-top: -50px;
+        line-height: 30px;
+        font-size: 40px;
+      }
+      .intro p {
+        color:black;
+      }
+      .con images1 {
+        margin-top: -350px;
+        float: left;
+      }
+      .images1 p {
+        color: black;
+      }
+      .images2 {
+        margin-top: 50px;
+      }
+      .images3 {
+        margin-top: 50px;
+      }
+      .hr {
+        center;
+      }
+      .text p {
+        color: black;
+      }
+      .text2 p {
+        color: black;
+      }
+      .text3 p {
+        color: black;
+      }
+    </style>
+    <title></title>
+  </head>
+  <body>
+
+
+
+    <div class="banner">
+
+      <header>
+        <div id='logo'>
+          <a href="index.html"><img src="png/mj.png"></a>
+        </div>
+      </header>
+
+      <nav id='menus'>
+
+      <div class="nav">
+        <ul>
+          <li><a href="food1.html">갤러리</a></li>
+          <li><a href="food2.html">바토스</a></li>
+          <li><a href="food3.html">성돈</a></li>
+          <li><a href="food4.html">쌍둥이횟집</a></li>
+          <li><a href="food5.html">메노</a></li>
+        </ul>
+        </nav>
+      </div>
+      <p></p>
+
+      <div class="content">
+        <div class="intro">
+          <h3>Gallery</h3>
+          <p><b>지금까지 가본 맛집들</b></p><br>
+          <hr size="3" width="1200px" color="#ff7f00">
+        </div>
+        <section class="con">
+        <div class="images1">
+          <img src="img/food1.jpg" width="300px" height="300px";>
+          <img src="img/food2.jpg" width="300px" height="300px";>
+          <img src="img/food3.jpg" width="300px" height="300px";>
+        </div>
+        <div class="text">
+          <p>제가 사는 곳인 안산부터 제주도, 서울 등 전국의 다양한 음식점들!!<br>
+          왼쪽에서 부터 제주도 쌍둥이 횟집, 안산 성돈, 서울에서 이탈리아의 맛을 느낄 수 있는 MENO 음식점 까지!</p>
+        </div>
+        <div class="images2">
+          <img src="img/food4.jpg" width="300px" height="300px";>
+          <img src="img/food5.jpg" width="300px" height="300px";>
+          <img src="img/food6.jpg" width="300px" height="300px";>
+        </div>
+        <div class="text2">
+          <p>안산에서 먹는 밥도 맛있지만, 역시 다른 곳도 돌아다니면서 먹는 밥도 맛있습니다. </p>
+        </div>
+        <div class="images3">
+          <img src="img/food7.jpg" width="300px" height="300px";>
+          <img src="img/food8.jpg" width="300px" height="300px";>
+          <img src="img/food9.jpg" width="300px" height="300px";>
+        </div>
+        <div class="text3">
+          <p>개인적으로 텍사스 데 브라질은 3번 정도 방문할 정도로 맛있는 바베큐집입니다.<br> 대신 비싼 가격과 빨리 물린다는 점이
+          있어서 가끔씩 가는데에 있어선 정말 좋은 곳입니다.</p>
+        </div>
+      </section>
+      </div>
+
+      <footer>
+        <div id="footer_box">
+          <div id="footer_logo">
+
+          </div>
+
+          <ul id='address'>
+            <li>Kaywon art and design</li>
+            <li>digital media design</li>
+            <li>Email : dns15951@kawon.ac.kr</li>
+            <br>
+            <li>COPYRIGHT (C) CHO YONG EUN</li>
+          </ul>
+        </div>
+      </footer>
+  </body>
+</html>
